@@ -1,0 +1,53 @@
+<config>
+    <sections>
+        <payment>
+            <groups>
+                <checkmo>
+                    <fields>
+                        <ip translate="label">
+                            <label>Allowed IP Address</label>
+                            <frontend_type>textarea</frontend_type>
+                            <comment>Separate by comma in case of multiple values and leave it empty if you want to
+                                allow method for all ip addresses
+                            </comment>
+                            <sort_order>11</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </ip>
+                    </fields>
+                </checkmo>
+                <purchaseorder>
+                    <fields>
+                        <ip translate="label">
+                            <label>Allowed IP Address</label>
+                            <frontend_type>textarea</frontend_type>
+                            <comment>Separate by comma in case of multiple values and leave it empty if you want to
+                                allow method for all ip addresses
+                            </comment>
+                            <sort_order>11</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </ip>
+                    </fields>
+                </purchaseorder>
+                <cashondelivery>
+                    <fields>
+                        <ip translate="label">
+                            <label>Allowed IP Address</label>
+                            <frontend_type>textarea</frontend_type>
+                            <comment>Separate by comma in case of multiple values and leave it empty if you want to
+                                allow method for all ip addresses
+                            </comment>
+                            <sort_order>11</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </ip>
+                    </fields>
+                </cashondelivery>
+            </groups>
+        </payment>
+    </sections>
+</config>

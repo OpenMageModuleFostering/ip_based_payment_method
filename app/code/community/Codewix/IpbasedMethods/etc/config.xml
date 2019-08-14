@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Codewix_IpbasedMethods>
+            <version>0.1.0</version>
+        </Codewix_IpbasedMethods>
+    </modules>
+    <global>
+        <models>
+            <ipbasedmethods>
+                <class>Codewix_IpbasedMethods_Model</class>
+            </ipbasedmethods>
+        </models>
+        <blocks>
+            <ipbasedmethods>
+                <class>Codewix_IpbasedMethods_Block</class>
+            </ipbasedmethods>
+        </blocks>
+        <helpers>
+            <ipbasedmethods>
+                <class>Codewix_IpbasedMethods_Helper</class>
+            </ipbasedmethods>
+        </helpers>
+    </global>
+    <frontend>
+        <events>
+            <payment_method_is_active>
+                <observers>
+                    <ipbasedpaymentmethod>
+                        <class>ipbasedmethods/observer</class>
+                        <method>paymentMethod</method>
+                    </ipbasedpaymentmethod>
+                </observers>
+            </payment_method_is_active>
+        </events>
+    </frontend>
+</config>

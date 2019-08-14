@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Codewix_IpbasedMethods>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Codewix_IpbasedMethods>
+    </modules>
+</config>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+    <name>Ip_Based_Payment_Method</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Module will allow to restrict payment methods based on customers Ip address.So It will be very useful in case you testing checkout process and need method like 'Check/Money Order' for you.</summary>
+    <description>This Module will be very useful to enable any of below payment method only for you i.e only for your IP address :&#xD;
+&#xD;
+'check money order'&#xD;
+'cashondelivery'&#xD;
+'purchaseorder'&#xD;
+&#xD;
+A practical example of usefulness of this module will be :&#xD;
+&#xD;
+You want to test checkout process of website and you have payment methods available which require you to make live payment.&#xD;
+&#xD;
+So in that case you will need payment method like 'Check Money Order' to avoid live payment and place order.</description>
+    <notes>Initial Release</notes>
+    <authors><author><name>CueBlocks</name><user>Ravinder</user><email>ravinder.singh@cueblocks.com</email></author></authors>
+    <date>2014-07-03</date>
+    <time>17:41:57</time>
+    <contents><target name="magecommunity"><dir name="Codewix"><dir name="IpbasedMethods"><dir name="Helper"><file name="Data.php" hash="246718790e7962b0b8c0c088689cfdc1"/></dir><dir name="Model"><file name="Observer.php" hash="b4ca92640ad177498947db0ea0e0ceb2"/></dir><dir name="etc"><file name="config.xml" hash="5a77bada0524e39c11387b2258e316df"/><file name="system.xml" hash="41901642ab6ca0c81eaf8073d8f05a49"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Codewix_IpbasedMethods.xml" hash="d9a54cdfdfcc4f8d051ae007fe2c5149"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.2</min><max>6.0.0</max></php></required></dependencies>
+</package>
