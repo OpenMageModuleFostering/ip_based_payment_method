@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Ip_Based_Payment_Method",
+    "name": "OpenMageModuleFostering\/Ip_Based_Payment_Method",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
-    "description": "Module will allow to restrict payment methods based on customers Ip address.So It will be very useful in case you testing checkout process and need method like 'Check/Money Order' for you.",
+    "description": "Module will allow to restrict payment methods based on customers Ip address.So It will be very useful in case you testing checkout process and need method like 'Check\/Money Order' for you.",
     "authors": [
-    {
-        "name": "CueBlocks",
-        "email": "ravinder.singh@cueblocks.com"
-    }
-],
+        {
+            "name": "CueBlocks",
+            "email": "ravinder.singh@cueblocks.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
